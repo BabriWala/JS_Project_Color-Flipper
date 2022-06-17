@@ -1,0 +1,128 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: #5CDB95;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+.header__text{
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+
+.right__side{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: #5CDB95;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.right__side h2{
+    font-size: 25px;
+    font-family: 'Quicksand';
+    font-weight: 600;   
+}
+
+
+.left__side{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: #5CDB95;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.left__side h2{
+    font-size: 25px;
+    font-family: 'Quicksand';
+    font-weight: 600;   
+}
+
+
+.body__center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.body__center h2{
+    font-size: 30px;
+    background-color: #05386B;
+    border-radius: 5px;
+    padding: 25px;
+    color: #EDF5E1;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    font-weight: bold;   
+}
+
+.body__center .btn{
+    background-color: #5CDB95;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.body__center .btn:hover{
+    cursor: pointer;
+    background-color: #8EE4AF;
+}
+
+.left__side:hover,
+.right__side:hover{
+    cursor: pointer;
+    background-color: #8EE4AF;
+}
+
+
